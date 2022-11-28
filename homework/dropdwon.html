@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webtraining</title>
+    <!-- <style>
+        ul{
+        list-style-type:none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            padding: 16px;
+        }
+    </style> -->
+    <style>
+        #ul{
+            background-color: #333333;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            border: 1px solid black;
+            height: 30px;
+            width: 500px;
+        }
+        #li{
+            display: inline;
+        }
+        #li a{
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            padding: 20px;
+        }
+        .dd {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dc {
+            display: none;
+            position: absolute;
+            background-color: black;
+            min-width: 160px;
+        }
+        .dc li{
+            color: white;
+            display: block;
+            list-style: none;
+        }
+
+        .dc a:hover {background-color: #ddd;}
+
+        .dd:hover .dc {display: block;}
+    </style>
+</head>
+<body>
+    <nav>
+    <ul id="ul">
+        <li id="li"><a href="#1">Home</a></li>
+        <li id="li" class="dd">
+            <a href="#2">Academic</a>
+        <ul class="dc">
+            <li>cci</li>
+            <li>c eng</li>
+            <li>c ncs</li>
+            <li>c agrec</li>
+        </ul>
+    </li>
+        <li id="li"><a href="#3">About us</a></li>
+        <li id="li"><a href="#4">Contact</a></li>
+    </ul>
+    </nav>
+</body>
+</html>
